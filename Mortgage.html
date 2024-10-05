@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Indus Royal</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="img/logo.png" />
+    <!-- Icon Font Stylesheet -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+
+    <style>
+      .project-carousel .owl-dots {
+        position: relative !important;
+        width: 100%;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px !important;
+        transition: 0.5s;
+      }
+      
+      .owl-carousel .owl-item {
+        height: 200px;
+        border-radius: 10px !important;
+        background: #fc7611;
+        text-align: center;
+        padding-top: 3rem;
+        transition: all 0.5s ease;
+      }
+      .owl-carousel .owl-item .project-content .h4 {
+        color: #000 !important;
+        transition: all 0.9s ease;
+      }
+      .owl-carousel .owl-item:hover {
+        background-color: #0c6460;
+        color: #fff;
+      }
+      .owl-carousel .owl-item:hover .h4 {
+        color: #fff !important;
+      }
+      .service-box {
+        text-align: center;
+        min-height: 14rem !important;
+        width: 100%;
+        margin: 0.5em 0;
+        border-radius: 10px;
+        padding: 2em 0.25em;
+        font-family: "Playfair Display", serif;
+        font-size: 1.2em;
+        line-height: 1.3;
+        transition: all 0.9s ease;
+      }
+      .service-box:hover {
+        background: #fff !important;
+        border: 1px solid var(--bs-dark);
+      }
+      .service-box:hover h5 {
+        color: var(--bs-dark) !important;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Spinner Start -->
+    <div
+      id="spinner"
+      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+    >
+      <div
+        class="spinner-border text-primary"
+        style="width: 3rem; height: 3rem"
+        role="status"
+      >
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Topbar Start -->
+    <div class="container-fluid topbar px-0 d-none d-lg-block">
+      <div class="container px-0">
+        <div class="row gx-0 align-items-center" style="height: 45px">
+          <div class="col-lg-8 text-center text-lg-start mb-lg-0">
+            <div class="d-flex flex-wrap">
+              <a href="#" class="text-light me-4"
+                ><i class="fas fa-map-marker-alt text-primary me-2"></i> 200 S
+                Rangeline Rd, Suite 129, Carmel, IN 46032</a
+              >
+              <a href="tel:+15132508680" class="text-light me-4"
+                ><i class="fas fa-phone-alt text-primary me-2"></i
+                >+15132508680</a
+              >
+              <a href="mailto:ssaha@indusroyal.com" class="text-light me-0"
+                ><i class="fas fa-envelope text-primary me-2"></i
+                >ssaha@indusroyal.com</a
+              >
+            </div>
+          </div>
+          <div class="col-lg-4 text-center text-lg-end">
+            <div class="d-flex align-items-center justify-content-end">
+              <a
+                target="_blank"
+                href="https://www.facebook.com/souravsaha.fin/"
+                class="btn btn-primary btn-square rounded-circle nav-fill me-3"
+                ><i class="fab fa-facebook-f text-white"></i
+              ></a>
+              <a
+                target="_blank"
+                href="https://x.com/Sourav_DrRock"
+                class="btn btn-primary btn-square rounded-circle nav-fill me-3"
+                ><i class="fab fa-twitter text-white"></i
+              ></a>
+              <a
+                target="_blank"
+                href="https://www.instagram.com/souravsaha.fin/?hl=en"
+                class="btn btn-primary btn-square rounded-circle nav-fill me-3"
+                ><i class="fab fa-instagram text-white"></i
+              ></a>
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/souravsaha-finance101/"
+                class="btn btn-primary btn-square rounded-circle nav-fill me-3"
+                ><i class="fab fa-linkedin-in text-white"></i
+              ></a>
+              <a
+                target="_blank"
+                href="#"
+                class="btn btn-primary btn-square rounded-circle nav-fill me-0"
+                ><i class="fab fa-youtube text-white"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Topbar End -->
+
+    <!-- Navbar & Hero Start -->
+    <div class="container-fluid sticky-top px-0">
+      <div
+        class="position-absolute bg-dark"
+        style="left: 0; top: 0; width: 100%; height: 100%"
+      ></div>
+      <div class="container px-0">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-white py-3 px-4">
+          <a href="index.html" class="navbar-brand p-0">
+            <h1 class="text-primary m-0 text-center">
+              <img class="head-logo" src="./img/head-logo.png" />
+            </h1>
+            <!-- <img src="img/logo.png" alt="Logo"> -->
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+          >
+            <span class="fa fa-bars"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-0">
+              <a href="index.html" class="nav-item nav-link ">Home</a>
+              <a href="about.html" class="nav-item nav-link">About</a>
+
+              <div class="nav-item dropdown active">
+                <div class="nav-link dropdown-toggle active"  data-bs-toggle="dropdown">
+                  Services
+                </div>
+                <div class="dropdown-menu m-0">
+                  <a href="individuals-family.html" class="dropdown-item"
+                    >Indivisuals & Families</a
+                  >
+                  <a href="financial-strategies.html" class="dropdown-item"
+                    >Financial Strategies & Consulting</a
+                  >
+
+                  <a href="business.html" class="dropdown-item"
+                    >Business Strategy & Investment</a
+                  >
+                  <a href="HealthCare.html" class="dropdown-item"
+                    >HealthCare Professionals</a
+                  >
+                  <a href="IT.html" class="dropdown-item">IT Professionals</a>
+
+                  <a href="Mortgage.html" class="dropdown-item"
+                    >Mortgage Protection</a
+                  >
+                  <a href="financial-education.html" class="dropdown-item">
+                    Financial Education</a
+                  >
+                  <a href="longtermCare.html" class="dropdown-item"
+                    >Long-Term Care</a
+                  >
+                  <a href="tax-optimization.html" class="dropdown-item"
+                    >Tax Optimization</a
+                  >
+                  <a href="#" class="dropdown-item">Medicare Suppliments</a>
+                  <a href="#" class="dropdown-item">Debt Management</a>
+                  <a href="#" class="dropdown-item"
+                    >Agency Building Opportunity</a
+                  >
+                </div>
+              </div>
+              <a href="resources.html" class="nav-item nav-link">Resources</a>
+              <a href="blog.html" class="nav-item nav-link">Our Blog</a>
+              <a href="contact.html" class="nav-item nav-link">Contact</a>
+            </div>
+            <div class="d-flex align-items-center flex-nowrap pt-xl-0">
+              <button
+                class="btn btn-primary btn-md-square mx-2"
+                data-bs-toggle="modal"
+                data-bs-target="#searchModal"
+              >
+                <i class="fas fa-search"></i>
+              </button>
+              <a
+                href="https://calendly.com/dr-souravsaha/60min "
+                class="btn btn-primary rounded-pill text-white py-2 px-4 ms-2 flex-wrap flex-sm-shrink-0"
+                >Consultation</a
+              >
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <!-- Navbar & Hero End -->
+
+    <!-- Modal Search Start -->
+    <div
+      class="modal fade"
+      id="searchModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content rounded-0">
+          <div class="modal-header">
+            <h4 class="modal-title mb-0" id="exampleModalLabel">
+              Search by keyword
+            </h4>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body d-flex align-items-center">
+            <div class="input-group w-75 mx-auto d-flex">
+              <input
+                type="search"
+                class="form-control p-3"
+                placeholder="keywords"
+                aria-describedby="search-icon-1"
+              />
+              <span id="search-icon-1" class="input-group-text p-3"
+                ><i class="fa fa-search"></i
+              ></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Search End -->
+
+    <!-- breadcrubs start from here -->
+    <div class="container-fluid bg-breadcrumb" style="
+    background: url('./img/mortgage.png') no-repeat center;
+    background-size: cover;
+  ">
+      <div class="bg-breadcrumb-single"></div>
+      <div class="container text-center py-5" style="max-width: 900px">
+        <h4
+          class=" display-4 mb-4 text-primary wow fadeInDown"
+          data-wow-delay="0.1s"
+        >
+          MORTGAGE PROTECTION
+        </h4>
+      </div>
+    </div>
+    <!-- breadcrubs end here -->
+
+    <!-- detail Start -->
+    <div class="container-fluid team py-5">
+      
+      <div class="container">
+        <div
+          class="text-center mx-auto wow fadeInUp"
+          data-wow-delay="0.1s"
+          style="max-width: 800px"
+        >
+          <!-- <h4 class="text-dark">
+            In the ever-evolving landscape of Information Technology, financial challenges can be
+as complex as the systems you develop.
+
+          </h4> -->
+          <p>
+            Owning a home is one of the most significant financial commitments
+            you’ll ever make, and protecting that investment should be a top
+            priority. While many homeowners focus on making their monthly
+            mortgage payments, they often overlook critical aspects of mortgage
+            protection and the possibility of accelerating mortgage payoff. By
+            integrating smart financial planning into your strategy with Indus
+            Royal Wealth Group, you can safeguard your home against unforeseen
+            circumstances and potentially pay off your mortgage earlier than
+            expected. Here's how financial planning can play a pivotal role in
+            your mortgage journey.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- detail end -->
+
+    <!-- ALL SERVICES SECTION STARTS FROM HERE -->
+    <div class="container">
+      <div id="serviceModal" class="modal wow fadeIn" data-wow-delay="0.3s" style="display: none">
+        <div class="modal-content ">
+          <span class="close">&times;</span>
+          <h4 id="modal-title" class="text-center text-primary"></h4>
+          <p id="modal-body" class="text-center"></p>
+          <ul id="modal_list"></ul>
+        </div>
+      </div>
+      <div class="row g-4 justify-content-center">
+        <div
+          class="col-sm-6 col-md-6 col-lg-6 wow fadeInUp"
+          data-wow-delay="0.1s"
+        >
+        <a href="#covering">
+          <div class="service-box bg-dark wow fadeInUp" data-wow-delay="0.3s">
+            <img
+              src="img/disability.svg"
+              alt=""
+              class="img-fluid text-white"
+            />
+
+            <h5 class="text-white">Covering the Mortgage Gap</h5>
+          </div>
+        </a>
+          
+        </div>
+        <div
+          class="col-sm-6 col-md-6 col-lg-6 wow fadeInUp"
+          data-wow-delay="0.3s"
+        >
+        <a href="#impact">
+          <div class="service-box bg-dark wow fadeInUp" data-wow-delay="0.3s">
+            <img
+              src="img/mortgage.svg"
+              alt=""
+              class="img-fluid text-white"
+            />
+
+            <h5 class="text-white">The Impact of Income Loss on Mortgage Payments</h5>
+          </div>
+        </a>
+         
+        </div>
+        <div
+          class="col-sm-6 col-md-6 col-lg-6 wow fadeInUp"
+          data-wow-delay="0.1s"
+        >
+        <a href="#navigate">
+          <div class="service-box bg-dark wow fadeInUp" data-wow-delay="0.3s">
+            <img
+              src="img/people-roof.svg"
+              alt=""
+              class="img-fluid text-white"
+            />
+
+            <h5 class="text-white">Navigating Probate: Transferring the Home to Loved Ones</h5>
+          </div>
+        </a>
+          
+        </div>
+        <div
+          class="col-sm-6 col-md-6 col-lg-6 wow fadeInUp"
+          data-wow-delay="0.3s"
+        >
+          
+            <a href="#strategies">
+              <div class="service-box bg-dark wow fadeInUp" data-wow-delay="0.3s">
+                <img
+                  src="img/insurance.svg"
+                  alt=""
+                  class="img-fluid text-white"
+                />
+    
+                <h5 class="text-white">Strategies to Pay Off Your Mortgage Early</h5>
+              </div>
+            </a>
+           
+            
+          
+        </div>
+        <h5>
+          Contact Indus Royal Wealth Group today and let our experts help you
+          safeguard your most valuable asset—your home.
+        </h5>
+        <span
+          class="wow fadeInDown mb-5"
+          data-wow-delay="0.4s"
+          style="font-size: 12px; color: #000"
+          >* We do not offer real estate, loan, accounting, legal, or tax
+          advice. Please consult your own real estate agents and advisors in
+          respective fields for such advice.</span
+        >
+      </div>
+    </div>
+    <!-- ALL SERVICES SECTION END HERE -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
+      <div class="container py-5">
+        <div class="row g-5">
+          <div class="col-md-6 col-lg-6 col-xl-3">
+            <div class="footer-item d-flex flex-column">
+              <div class="footer-item text-white">
+                <h4 class="text-white mb-4">Newsletter</h4>
+                <p class="mb-3 font-bold font-weight text-bold">
+                  <strong>Revisiting Your Retirement Planning</strong>
+                </p>
+                <p class="m-0">HealthCare Costs & Inflamation</p>
+                <p class="m-0">Growing your Assets</p>
+                <p class="m-0">Protecting your Assets</p>
+                <div class="position-relative mx-auto rounded-pill">
+                  <input
+                    class="form-control rounded-pill w-100 py-3 ps-4 pe-5"
+                    type="text"
+                    placeholder="Enter your email"
+                  />
+                  <button
+                    type="button"
+                    class="btn btn-primary rounded-pill position-absolute top-0 end-0 py-2 mt-2 me-2"
+                  >
+                    Feedback
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-6 col-xl-3">
+            <div class="footer-item d-flex flex-column">
+              <h4 class="text-white mb-4">Explore</h4>
+              <a class="text-white" href="index.html"
+                ><i class="fas fa-angle-right me-2"></i> Home</a
+              >
+              <a class="text-white" href="about.html"
+                ><i class="fas fa-angle-right me-2"></i>About Us</a
+              >
+              <a class="text-white" href="HealthCare.html"
+                ><i class="fas fa-angle-right me-2"></i> Services</a
+              >
+              <a class="text-white" href="resources.html"
+                ><i class="fas fa-angle-right me-2"></i> Education &
+                Resources</a
+              >
+              <a class="text-white" href="blog.html"
+                ><i class="fas fa-angle-right me-2"></i> Blog</a
+              >
+              <a class="text-white" href="contact.html"
+                ><i class="fas fa-angle-right me-2"></i> Contact Us</a
+              >
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-6 col-xl-3">
+            <div class="footer-item d-flex flex-column">
+              <h4 class="text-white mb-4">Contact Info</h4>
+
+              <a class="text-white" href=""
+                ><i class="fa fa-map-marker-alt me-2"></i> 200 S Rangeline Rd,
+                Suite 129, Carmel, IN 46032</a
+              >
+              <a class="text-white" href=""
+                ><i class="fas fa-envelope me-2"></i> ssaha@indusroyal.com</a
+              >
+              <!-- <a class="text-white" href=""><i class="fas fa-envelope me-2"></i> ssaha@indusroyal.com</a> -->
+              <a class="text-white" href=""
+                ><i class="fas fa-phone me-2"></i> +15132508680</a
+              >
+
+              <div class="d-flex align-items-center">
+                <a
+                  target="_blank"
+                  href="https://www.facebook.com/souravsaha.fin/"
+                  class="btn btn-primary btn-square rounded-circle nav-fill me-3"
+                  ><i class="fab fa-facebook-f text-white"></i
+                ></a>
+                <a
+                  target="_blank"
+                  href="https://x.com/Sourav_DrRock"
+                  class="btn btn-primary btn-square rounded-circle nav-fill me-3"
+                  ><i class="fab fa-twitter text-white"></i
+                ></a>
+                <a
+                  target="_blank"
+                  href="https://www.instagram.com/souravsaha.fin/?hl=en"
+                  class="btn btn-primary btn-square rounded-circle nav-fill me-3"
+                  ><i class="fab fa-instagram text-white"></i
+                ></a>
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/souravsaha-finance101/"
+                  class="btn btn-primary btn-square rounded-circle nav-fill me-3"
+                  ><i class="fab fa-linkedin-in text-white"></i
+                ></a>
+                <a
+                  target="_blank"
+                  href="#"
+                  class="btn btn-primary btn-square rounded-circle nav-fill me-0"
+                  ><i class="fab fa-youtube text-white"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-6 col-xl-3">
+            <div class="footer-item-post d-flex flex-column">
+              <h4 class="text-white mb-4">Popular Post</h4>
+              <div class="d-flex text-white flex-column mb-3">
+                <p class="text-uppercase text-primary mb-2">Blogs</p>
+                <a href="blog.html" class="text-white"
+                  >Revisiting Your Investment & Distribution Goals</a
+                >
+              </div>
+              <div class="d-flex text-white flex-column mb-3">
+                <a href="blog.html" class="text-white"
+                  >Dimensional Fund Advisors Interview with Director</a
+                >
+              </div>
+              <div class="footer-btn text-start">
+                <a
+                  href="https://calendly.com/dr-souravsaha/60min"
+                  class="btn btn-light rounded-pill px-4"
+                  >Request a Complementary Consultancy<i
+                    class="fa fa-arrow-right ms-1"
+                  ></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="my-2">
+          <span style="font-size: 12px; color: white"
+            >Copyright © 2024 – Indus Royal Wealth Group - indusroyal.com - All
+            Rights Reserved. Indus Royal Wealth Group LLC is a company that is
+            comprised of independent financial professionals associated with
+            Hegemon Group International, LLC (HGI) and Integrity, but it is not
+            an affiliated company of Hegemon Group International, LLC (HGI) and
+            Integrity. Our financial professionals offer insurance products
+            through Hegemon Group International, LLC (HGI) and Integrity. Our
+            referred wealth managers are associated with the Wealth Format
+            System (WFS). Investment advisory services are offered through
+            Brokers International Financial Services, LLC., Member SIPC. Wealth
+            Format System (WFS) and Brokers International Financial Services,
+            LLC is not an affiliated company.</span
+          >
+        </div>
+      </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary btn-lg-square back-to-top"
+      ><i class="fa fa-arrow-up"></i
+    ></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+    <script>
+      // Get the modal elements
+      var modal = document.getElementById("serviceModal");
+      var modalTitle = document.getElementById("modal-title");
+      var modalBody = document.getElementById("modal-body");
+      var modal_list = document.getElementById("modal_list");
+      var closeBtn = document.querySelector(".close");
+
+      // Data for each service box
+      const services = {
+        covering: {
+          title: "Covering the Mortgage Gap",
+          body: "One of the most overlooked aspects of homeownership is the assumption that mortgage insurance will protect homeowners. In reality, traditional mortgage insurance protects the lender, not the homeowner or their family. This is where life insurance comes into play as a valuable tool for mortgage protection. Life insurance bridges the gap by ensuring that in the unfortunate event of a homeowner’s death, the remaining family members are not left struggling to keep up with mortgage payments. Unlike mortgage insurance, life insurance also offers broader protection that is not limited to the mortgage; the beneficiaries can use the funds as needed. Our strategies are designed to protect your wealth and ensure a smooth transfer of assets to your beneficiaries.",
+          list: [],
+        },
+        impact: {
+          title: "The Impact of Income Loss on Mortgage Payments",
+          body: "The sudden loss of an income earner in the family can have devastating effects on mortgage payments. Without the necessary financial planning, a household may struggle to cover the mortgage, leading to the risk of foreclosure and loss of the family home. Proper financial planning is essential in safeguarding against this risk. Our experts can help you select the right insurance products, ensuring you and your family can continue to make payments without financial strain. Mortgage protection insurance, in particular, is designed specifically to cover mortgage payments in the event of death, disability, or critical illness, providing a financial buffer during a period of adjustment and grief.",
+          list: [],
+        },
+        navigate: {
+          title: "Navigating Probate: Transferring the Home to Loved Ones",
+          body: "In the event of a homeowner's death, probate—the legal process of transferring assets—can become a significant hurdle. This process can be lengthy, complex, and costly, potentially delaying the transfer of the home to loved ones and adding financial stress during an already challenging time Proper Estate Planning can help avoid the pitfalls of probate. With our partnership with NetLaw, our team can assist you in setting up the necessary safeguards, such as living trusts or beneficiary designations, to simplify asset transfer and avoid probate complications. Our guidance ensures that your loved ones can inherit your home smoothly without financial or legal burdens.",
+          list: [],
+        },
+        strategies: {
+          title: "Strategies to Pay Off Your Mortgage Early",
+          body: "Paying off your mortgage early can be a game-changer in your financial journey, and our financial professionals can guide you through every step. We provide guidance on budgeting strategies and other methods to accelerate your mortgage payoff. With our help, you can make informed decisions that fit your financial goals and lifestyle. Effective financial planning is essential in protecting your home and accelerating your journey to mortgage freedom. From life insurance that covers mortgage gaps and shields your loved ones to strategic ways of paying off your mortgage early, taking proactive steps today can save you from potential heartaches tomorrow. Indus Royal Wealth Group stands ready to be your trusted partner in this journey, providing the expert guidance and personalized solutions you need to secure your home and achieve financial peace of mind.",
+          list: [],
+        },
+      };
+
+      // Function to open modal with dynamic content
+      function openModal(serviceKey) {
+        var service = services[serviceKey];
+        modalTitle.innerHTML = service.title;
+        modalBody.innerHTML = service.body;
+
+        modal_list.innerHTML = "";
+
+        // Add each item from the 'list' array to the modal
+        service.list.forEach(function (item) {
+          var li = document.createElement("li");
+          li.textContent = item;
+          modal_list.appendChild(li);
+        });
+
+        modal.style.display = "flex"; // Show the modal
+      }
+
+      // Close the modal when the close button is clicked
+      closeBtn.onclick = function () {
+        modal.style.display = "none";
+      };
+
+      // Close the modal when user clicks outside the modal content
+      window.onclick = function (event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      };
+
+      // Add event listeners to the service boxes
+      document.querySelector('a[href="#covering"]').onclick = function () {
+        openModal("covering");
+      };
+      document.querySelector('a[href="#impact"]').onclick = function () {
+        openModal("impact");
+      };
+      document.querySelector('a[href="#strategies"]').onclick = function () {
+        openModal("strategies");
+      };
+      document.querySelector('a[href="#navigate"]').onclick =
+        function () {
+          openModal("navigate");
+        };
+      
+     
+    </script>
+  </body>
+</html>

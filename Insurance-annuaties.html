@@ -1,0 +1,945 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Indus Royal</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="img/logo.png" />
+    <!-- Icon Font Stylesheet -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+
+    <style>
+      .project-carousel .owl-dots {
+        position: relative !important;
+        width: 100%;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px !important;
+        transition: 0.5s;
+      }
+      .owl-carousel .owl-item {
+        height: 200px;
+        border-radius: 10px !important;
+        background: #fc7611;
+        text-align: center;
+        padding-top: 3rem;
+        transition: all 0.5s ease;
+      }
+      .owl-carousel .owl-item .project-content .h4 {
+        color: #000 !important;
+        transition: all 0.9s ease;
+      }
+      .owl-carousel .owl-item:hover {
+        background-color: #0c6460;
+        color: #fff;
+      }
+      .owl-carousel .owl-item:hover .h4 {
+        color: #fff !important;
+      }
+      .service-box {
+        text-align: center;
+        min-height: 14rem !important;
+        width: 100%;
+        margin: 0.5em 0;
+        border-radius: 10px;
+        padding: 2em 0.25em;
+        font-family: "Playfair Display", serif;
+        font-size: 1.2em;
+        line-height: 1.3;
+        transition: all 0.9s ease;
+      }
+      .service-box:hover {
+        background: #fff !important;
+        border: 1px solid var(--bs-dark);
+      }
+      .service-box:hover h5 {
+        color: var(--bs-dark) !important;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Spinner Start -->
+    <div
+      id="spinner"
+      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+    >
+      <div
+        class="spinner-border text-primary"
+        style="width: 3rem; height: 3rem"
+        role="status"
+      >
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Topbar Start -->
+    <div class="container-fluid topbar px-0 d-none d-lg-block">
+      <div class="container px-0">
+        <div class="row gx-0 align-items-center" style="height: 45px">
+          <div class="col-lg-8 text-center text-lg-start mb-lg-0">
+            <div class="d-flex flex-wrap">
+              <a href="#" class="text-light me-4"
+                ><i class="fas fa-map-marker-alt text-primary me-2"></i> 200 S
+                Rangeline Rd, Suite 129, Carmel, IN 46032</a
+              >
+              <a href="tel:+15132508680" class="text-light me-4"
+                ><i class="fas fa-phone-alt text-primary me-2"></i
+                >+15132508680</a
+              >
+              <a href="mailto:ssaha@indusroyal.com" class="text-light me-0"
+                ><i class="fas fa-envelope text-primary me-2"></i
+                >ssaha@indusroyal.com</a
+              >
+            </div>
+          </div>
+          <div class="col-lg-4 text-center text-lg-end">
+            <div class="d-flex align-items-center justify-content-end">
+              <a
+                target="_blank"
+                href="https://www.facebook.com/souravsaha.fin/"
+                class="btn btn-primary btn-square rounded-circle nav-fill me-3"
+                ><i class="fab fa-facebook-f text-white"></i
+              ></a>
+              <a
+                target="_blank"
+                href="https://x.com/Sourav_DrRock"
+                class="btn btn-primary btn-square rounded-circle nav-fill me-3"
+                ><i class="fab fa-twitter text-white"></i
+              ></a>
+              <a
+                target="_blank"
+                href="https://www.instagram.com/souravsaha.fin/?hl=en"
+                class="btn btn-primary btn-square rounded-circle nav-fill me-3"
+                ><i class="fab fa-instagram text-white"></i
+              ></a>
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/souravsaha-finance101/"
+                class="btn btn-primary btn-square rounded-circle nav-fill me-3"
+                ><i class="fab fa-linkedin-in text-white"></i
+              ></a>
+              <a
+                target="_blank"
+                href="#"
+                class="btn btn-primary btn-square rounded-circle nav-fill me-0"
+                ><i class="fab fa-youtube text-white"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Topbar End -->
+
+    <!-- Navbar & Hero Start -->
+    <div class="container-fluid sticky-top px-0">
+      <div
+        class="position-absolute bg-dark"
+        style="left: 0; top: 0; width: 100%; height: 100%"
+      ></div>
+      <div class="container px-0">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-white py-3 px-4">
+          <a href="index.html" class="navbar-brand p-0">
+            <h1 class="text-primary m-0 text-center">
+              <img class="head-logo" src="./img/head-logo.png" />
+            </h1>
+            <!-- <img src="img/logo.png" alt="Logo"> -->
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+          >
+            <span class="fa fa-bars"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-0">
+              <a href="index.html" class="nav-item nav-link ">Home</a>
+              <a href="about.html" class="nav-item nav-link">About</a>
+
+              <div class="nav-item dropdown active">
+                <div class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">
+                  Services
+                </div>
+                <div class="dropdown-menu m-0">
+                  <a href="individuals-family.html" class="dropdown-item"
+                    >Indivisuals & Families</a
+                  >
+                  <a href="financial-strategies.html" class="dropdown-item"
+                    >Financial Strategies & Consulting</a
+                  >
+
+                  <a href="business.html" class="dropdown-item"
+                    >Business Strategy & Investment</a
+                  >
+                  <a href="HealthCare.html" class="dropdown-item"
+                    >HealthCare Professionals</a
+                  >
+                  <a href="IT.html" class="dropdown-item">IT Professionals</a>
+
+                  <a href="Mortgage.html" class="dropdown-item"
+                    >Mortgage Protection</a
+                  >
+                  <a href="financial-education.html" class="dropdown-item">
+                    Financial Education</a
+                  >
+                  <a href="longtermCare.html" class="dropdown-item"
+                    >Long-Term Care</a
+                  >
+                  <a href="tax-optimization.html" class="dropdown-item"
+                    >Tax Optimization</a
+                  >
+                  <a href="#" class="dropdown-item">Medicare Suppliments</a>
+                  <a href="#" class="dropdown-item">Debt Management</a>
+                  <a href="#" class="dropdown-item"
+                    >Agency Building Opportunity</a
+                  >
+                </div>
+              </div>
+              <a href="resources.html" class="nav-item nav-link">Resources</a>
+              <a href="blog.html" class="nav-item nav-link">Our Blog</a>
+              <a href="contact.html" class="nav-item nav-link">Contact</a>
+            </div>
+            <div class="d-flex align-items-center flex-nowrap pt-xl-0">
+              <button
+                class="btn btn-primary btn-md-square mx-2"
+                data-bs-toggle="modal"
+                data-bs-target="#searchModal"
+              >
+                <i class="fas fa-search"></i>
+              </button>
+              <a
+                href="https://calendly.com/dr-souravsaha/60min "
+                class="btn btn-primary rounded-pill text-white py-2 px-4 ms-2 flex-wrap flex-sm-shrink-0"
+                >Consultation</a
+              >
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <!-- Navbar & Hero End -->
+
+    <!-- Modal Search Start -->
+    <div
+      class="modal fade"
+      id="searchModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content rounded-0">
+          <div class="modal-header">
+            <h4 class="modal-title mb-0" id="exampleModalLabel">
+              Search by keyword
+            </h4>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body d-flex align-items-center">
+            <div class="input-group w-75 mx-auto d-flex">
+              <input
+                type="search"
+                class="form-control p-3"
+                placeholder="keywords"
+                aria-describedby="search-icon-1"
+              />
+              <span id="search-icon-1" class="input-group-text p-3"
+                ><i class="fa fa-search"></i
+              ></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Search End -->
+
+    <!-- breadcrubs start from here -->
+    <div class="container-fluid bg-breadcrumb" style="background: url('./img/insurance-annuaties.jpg') no-repeat  center; background-size: cover;">
+      <div class="bg-breadcrumb-single"></div>
+      <div class="container text-center py-5" style="max-width: 900px">
+        <h4
+          class="text-white display-4 mb-4 wow fadeInDown"
+          data-wow-delay="0.1s"
+        >
+        INSURANCES & ANNUITIES
+        </h4>
+      </div>
+    </div>
+    <!-- breadcrubs end here -->
+
+    <!-- detail Start -->
+    <div class="container-fluid team py-3">
+      <div class="container">
+        <div
+          class="text-center mx-auto wow fadeInUp"
+          data-wow-delay="0.1s"
+          style="max-width: 800px"
+        >
+         
+          <p>
+            In today's complex financial landscape, securing your future and that of your loved ones
+            is paramount. At Indus Royal Wealth Group LLC, our team of licensed professionals
+            stands ready to guide you through the intricate world of life insurance and financial
+            planning. Let's explore how our expertise can help you craft a bespoke financial strategy
+            that aligns with your unique goals and circumstances         
+          </p>
+        </div>
+
+        
+        <div class="my-5 text-center">
+          <h4> The Multifaceted Role of Life Insurance</h4>
+          <p>
+            Life insurance is far more than just a safety net for families. It's a versatile financial tool
+ that can play a crucial role in various aspects of your financial planning:
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- detail end -->
+
+    <!-- ALL SERVICES SECTION STARTS FROM HERE -->
+    <div class="container">
+      <div id="serviceModal" class="modal wow fadeIn" data-wow-delay="0.3s" style="display: none">
+        <div class="modal-content ">
+          <span class="close">&times;</span>
+          <h4 id="modal-title" class="text-center text-primary"></h4>
+          <p id="modal-body" class="text-center"></p>
+          <ul id="modal_list"></ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <a href="#estate">
+            <div class="service-box bg-dark wow fadeInUp" data-wow-delay="0.3s">
+              <img
+                src="img/retirement.png"
+                alt=""
+                class="img-fluid text-white"
+              />
+              <h5 class="text-white">Estate Planning</h5>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a href="#business">
+            <div class="service-box bg-dark wow fadeInUp" data-wow-delay="0.3s">
+              <img
+                src="img/education.svg"
+                alt=""
+                class="img-fluid text-white"
+              />
+              <h5 class="text-white">Business Succession</h5>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col-md-3">
+          <a href="#charity">
+            <div class="service-box bg-dark wow fadeInUp" data-wow-delay="0.3s">
+              <img src="img/charity.svg" alt="charity" class="img-fluid text-white" />
+              <h5 class="text-white">Charitable Giving:</h5>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a href="#living">
+            <div class="service-box bg-dark wow fadeInUp" data-wow-delay="0.3s">
+              <img src="img/calculator-math-tax.svg" alt="calculator" class="img-fluid text-white" />
+              <h5 class="text-white">Living Benefits</h5>
+            </div>
+          </a>
+        </div>
+      </div>
+     
+
+
+
+
+      <div class="container my-3">
+        <div class="row justify-content-center wow fadeInUp" data-wow-delay="0.2s">
+            <div class="col-md-7">
+                <div class="policy my-4">
+                    <img width="100%" src="./img/insurace-policy.jpg" alt="">
+                 </div>
+            </div>
+
+        </div>
+
+        <h3  class="text-center">Tailored Solutions for Every Life Stage</h3>
+        <p  class="text-center">Our licensed experts offer a comprehensive suite of life insurance products, each
+            designed to address specific needs and objectives:</p>
+        
+      </div>
+
+    <div class="row">
+    <div class="col-md-3">
+        <a href="#termlife">
+          <div class="service-box bg-dark wow fadeInUp" data-wow-delay="0.3s">
+            <img src="img/calculator-math-tax.svg" alt="calculator" class="img-fluid text-white" />
+            <h5 class="text-white">Term Life Insurance</h5>
+          </div>
+        </a>
+      </div>
+    <div class="col-md-3">
+        <a href="#index">
+          <div class="service-box bg-dark wow fadeInUp" data-wow-delay="0.3s">
+            <img src="img/calculator-math-tax.svg" alt="calculator" class="img-fluid text-white" />
+            <h5 class="text-white"> Index Universal Life (IUL) Insurance </h5>
+          </div>
+        </a>
+      </div>
+    <div class="col-md-3">
+        <a href="#survivorship">
+          <div class="service-box bg-dark wow fadeInUp" data-wow-delay="0.3s">
+            <img src="img/calculator-math-tax.svg" alt="calculator" class="img-fluid text-white" />
+            <h5 class="text-white">Survivorship Life Insurance</h5>
+          </div>
+        </a>
+      </div>
+    <div class="col-md-3">
+        <a href="#expense">
+          <div class="service-box bg-dark wow fadeInUp" data-wow-delay="0.3s">
+            <img src="img/calculator-math-tax.svg" alt="calculator" class="img-fluid text-white" />
+            <h5 class="text-white"> Final Expense Policy </h5>
+          </div>
+        </a>
+      </div>
+    </div>
+
+<div class="longterm my-5">
+    <h3 class="text-center"> Long-Term Care Insurance *</h3>
+    <p class="text-center"> At Indus Royal Wealth Group LLC, we understand that a sound retirement strategy
+        must include provisions for potential long-term care needs. Our approach to long-term
+        care planning is comprehensive and tailored to your unique circumstances:</p>
+        <div class="row">
+            <div class="col-md-4 wow fadeInUp" data-wow-delay="0.3s">
+              
+              <div class="sm-box">
+                <h5> Asset and Income Protection:</h5>
+                <p>
+                    We help design strategies that shield your
+                    hard-earned assets and income from the potentially devastating costs of extended care.
+                </p>
+              </div>
+             
+            </div>
+            <div class="col-md-4 wow fadeInUp" data-wow-delay="0.3s">
+              
+              <div class="sm-box">
+                <h5>Portfolio Balance</h5>
+                <p>
+                    Our experts craft plans that account for extended care costs and
+                    disability insurance, ensuring a balanced portfolio that promotes stability and asset
+                    protection.
+                </p>
+              </div>
+             
+            </div>
+            <div class="col-md-4 wow fadeInUp" data-wow-delay="0.3s">
+              
+              <div class="sm-box">
+                <h5>Customized Solutions:</h5>
+                <p>
+                    We recognize that each client's needs are unique. Our team
+                    works diligently to create a long-term care strategy that aligns with your overall financial
+                    goals and risk tolerance
+                </p>
+              </div>
+             
+            </div>
+           
+            
+          </div>
+          <p>Long-term care planning is a critical component of a comprehensive financial strategy.
+            Our licensed professionals at Indus Royal Wealth Group LLC are here to guide you
+            through this complex landscape, ensuring you're prepared for whatever the future may
+            hold. <a href="longtermCare.html">Read more here</a></p>
+
+            <div class="annuaties my-5 row">
+              <div class="col-md-6">
+                <h2 class="">Annuities: Securing Your Financial Future</h2>
+                <p> Annuities are powerful financial tools that can play a crucial role in your retirement
+                    planning. At Indus Royal Wealth Group LLC, we offer expertise in various types of
+                    annuities to help you achieve your long-term financial goals. </p>
+
+                    <h4 class="">Understanding Annuities</h4>
+                    <p>An annuity is a unique financial vehicle designed to help you accumulate money for
+                        retirement and/or convert a lump sum into a guaranteed stream of income payments.
+                        Key benefits include:</p>
+                        <ul>
+                            <li>Tax-deferred growth potential</li>
+                            <li>Accumulation of funds for retirement</li>
+                            <li>Guaranteed income stream, potentially for life</li>
+                        </ul>
+              </div>
+
+              <div class="col-md-6 text-center">
+                <img width="350" src="./img/annuaties'.png" alt="">
+              </div>
+              
+            </div>
+            <div class="my-5">
+                <h3 class="text-center mb-5 ">Types of Annuities</h3>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h4>Fixed Deferred Annuities</h4>
+                        <ul>
+                            <li> Guaranteed minimum interest rate</li>
+                            <li>Provides a measure of security for risk-averse individuals</li>
+                            <li>Subject to surrender charges for early withdrawals</li>
+                            <li> Potential tax implications for withdrawals before age 59½</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <h4>Lifetime Income Annuities</h4>
+                        <ul>
+                            <li>  Income payments begin shortly after purchase</li>
+                            <li>Provides predictable income on a chosen schedule (monthly, quarterly, semi-annually,
+                                or annually)</li>
+                            <li>Guaranteed income for life, regardless of market performance</li>
+                            <li> Offers peace of mind and financial stability in retirement</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <p>Our licensed professionals at Indus Royal Wealth Group LLC will help you navigate the
+                        complexities of annuities, ensuring you understand the benefits and considerations of
+                        each type. We'll work with you to determine if an annuity aligns with your overall
+                        financial strategy and retirement goals.</p>
+                </div>
+            </div>
+            <div class="security container my-5">
+              <h3 class="text-center"> Your Path to Financial Security with Indus Royal Wealth Group LLC</h3>
+              <p class="text-center">Our licensed professionals bring a wealth of knowledge and a personalized approach to
+                  your financial planning:</p>
+              <div class="row">
+                  <div class="col-md-3">
+                      <a href="#comprehensive">
+                        <div class="service-box bg-dark wow fadeInUp" data-wow-delay="0.3s">
+                          <img src="img/shield-plus.svg" alt="calculator" class="img-fluid text-white" />
+                          <h5 class="text-white">Comprehensive Needs Analysis:</h5>
+                        </div>
+                      </a>
+                    </div>
+                  <div class="col-md-3">
+                      <a href="#customized">
+                        <div class="service-box bg-dark wow fadeInUp" data-wow-delay="0.3s">
+                          <img src="img/meeting.svg" alt="calculator" class="img-fluid text-white" />
+                          <h5 class="text-white"> Customized Strategy Development:       </h5>
+                        </div>
+                      </a>
+                    </div>
+                  <div class="col-md-3">
+                      <a href="#product">
+                        <div class="service-box bg-dark wow fadeInUp" data-wow-delay="0.3s">
+                          <img src="img/user-md.svg" alt="calculator" class="img-fluid text-white" />
+                          <h5 class="text-white">Product Selection:</h5>
+                        </div>
+                      </a>
+                    </div>
+                  <div class="col-md-3">
+                      <a href="#support">
+                        <div class="service-box bg-dark wow fadeInUp" data-wow-delay="0.3s">
+                          <img src="img/chart-user.svg" alt="calculator" class="img-fluid text-white" />
+                          <h5 class="text-white">Ongoing Support</h5>
+                        </div>
+                      </a>
+                    </div>
+              </div>
+          </div>
+</div>
+
+
+
+      <div class="row my-4">
+        <p class="text-dark wow fadeInDown" data-wow-delay="0.4s">
+            In a world of financial uncertainties, let the professionals at Indus Royal Wealth Group
+ LLC be your beacon of clarity. Our licensed experts are committed to guiding you
+ through the complexities of life insurance, long-term care, and retirement planning,
+ including annuities. We empower you to make informed decisions that secure your
+ financial future.
+        </p>
+       <p>
+        Don't leave your financial security to chance. Contact Indus Royal Wealth Group LLC
+        today, and take the first step towards a more secure, prosperous tomorrow. Whether
+        you're looking to protect your family, plan for potential care needs, or ensure a steady
+        retirement income, our team is here to help you achieve your financial goals with
+        confidence.
+       </p>
+       
+        <span
+        class="wow fadeInDown"
+        data-wow-delay="0.4s"
+        style="font-size: 12px; color: #000"
+        >* Products available through one or more carriers are not affiliated with Indus Royal Wealth Group
+        LLC and depend on carrier authorization and product availability in your state or locality. Our
+        financial professionals do not offer Tax advice. <br>
+        Guarantees are dependent upon the claims-paying ability of the issuing insurer.<br> All guarantees associated with annuity contracts are based on the claims-paying ability of the
+        issuing insurance company. Withdrawals may be subject to regular income tax, and if made prior to
+        age 59½, may be subject to a 10% IRS penalty. In addition, surrender charges may apply. Our
+        financial professionals do not offer Tax advice.
+       </span
+      >
+      </div>
+    </div>
+    <!-- ALL SERVICES SECTION END HERE -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
+      <div class="container py-5">
+        <div class="row g-5">
+          <div class="col-md-6 col-lg-6 col-xl-3">
+            <div class="footer-item d-flex flex-column">
+              <div class="footer-item text-white">
+                <h4 class="text-white mb-4">Newsletter</h4>
+                <p class="mb-3 font-bold font-weight text-bold">
+                  <strong>Revisiting Your Retirement Planning</strong>
+                </p>
+                <p class="m-0">HealthCare Costs & Inflamation</p>
+                <p class="m-0">Growing your Assets</p>
+                <p class="m-0">Protecting your Assets</p>
+                <div class="position-relative mx-auto rounded-pill">
+                  <input
+                    class="form-control rounded-pill w-100 py-3 ps-4 pe-5"
+                    type="text"
+                    placeholder="Enter your email"
+                  />
+                  <button
+                    type="button"
+                    class="btn btn-primary rounded-pill position-absolute top-0 end-0 py-2 mt-2 me-2"
+                  >
+                    Feedback
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-6 col-xl-3">
+            <div class="footer-item d-flex flex-column">
+              <h4 class="text-white mb-4">Explore</h4>
+              <a class="text-white" href="index.html"
+                ><i class="fas fa-angle-right me-2"></i> Home</a
+              >
+              <a class="text-white" href="about.html"
+                ><i class="fas fa-angle-right me-2"></i>About Us</a
+              >
+              <a class="text-white" href="HealthCare.html"
+                ><i class="fas fa-angle-right me-2"></i> Services</a
+              >
+              <a class="text-white" href="resources.html"
+                ><i class="fas fa-angle-right me-2"></i> Education &
+                Resources</a
+              >
+              <a class="text-white" href="blog.html"
+                ><i class="fas fa-angle-right me-2"></i> Blog</a
+              >
+              <a class="text-white" href="contact.html"
+                ><i class="fas fa-angle-right me-2"></i> Contact Us</a
+              >
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-6 col-xl-3">
+            <div class="footer-item d-flex flex-column">
+              <h4 class="text-white mb-4">Contact Info</h4>
+
+              <a class="text-white" href=""
+                ><i class="fa fa-map-marker-alt me-2"></i> 200 S Rangeline Rd,
+                Suite 129, Carmel, IN 46032</a
+              >
+              <a class="text-white" href=""
+                ><i class="fas fa-envelope me-2"></i> ssaha@indusroyal.com</a
+              >
+              <!-- <a class="text-white" href=""><i class="fas fa-envelope me-2"></i> ssaha@indusroyal.com</a> -->
+              <a class="text-white" href=""
+                ><i class="fas fa-phone me-2"></i> +15132508680</a
+              >
+
+              <div class="d-flex align-items-center">
+                <a
+                  target="_blank"
+                  href="https://www.facebook.com/souravsaha.fin/"
+                  class="btn btn-primary btn-square rounded-circle nav-fill me-3"
+                  ><i class="fab fa-facebook-f text-white"></i
+                ></a>
+                <a
+                  target="_blank"
+                  href="https://x.com/Sourav_DrRock"
+                  class="btn btn-primary btn-square rounded-circle nav-fill me-3"
+                  ><i class="fab fa-twitter text-white"></i
+                ></a>
+                <a
+                  target="_blank"
+                  href="https://www.instagram.com/souravsaha.fin/?hl=en"
+                  class="btn btn-primary btn-square rounded-circle nav-fill me-3"
+                  ><i class="fab fa-instagram text-white"></i
+                ></a>
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/souravsaha-finance101/"
+                  class="btn btn-primary btn-square rounded-circle nav-fill me-3"
+                  ><i class="fab fa-linkedin-in text-white"></i
+                ></a>
+                <a
+                  target="_blank"
+                  href="#"
+                  class="btn btn-primary btn-square rounded-circle nav-fill me-0"
+                  ><i class="fab fa-youtube text-white"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-6 col-xl-3">
+            <div class="footer-item-post d-flex flex-column">
+              <h4 class="text-white mb-4">Popular Post</h4>
+              <div class="d-flex text-white flex-column mb-3">
+                <p class="text-uppercase text-primary mb-2">Blogs</p>
+                <a href="blog.html" class="text-white"
+                  >Revisiting Your Investment & Distribution Goals</a
+                >
+              </div>
+              <div class="d-flex text-white flex-column mb-3">
+                <a href="blog.html" class="text-white"
+                  >Dimensional Fund Advisors Interview with Director</a
+                >
+              </div>
+              <div class="footer-btn text-start">
+                <a
+                  href="https://calendly.com/dr-souravsaha/60min"
+                  class="btn btn-light rounded-pill px-4"
+                  >Request a Complementary Consultancy<i
+                    class="fa fa-arrow-right ms-1"
+                  ></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="my-2">
+          <span style="font-size: 12px; color: white"
+            >Copyright © 2024 – Indus Royal Wealth Group - indusroyal.com - All
+            Rights Reserved. Indus Royal Wealth Group LLC is a company that is
+            comprised of independent financial professionals associated with
+            Hegemon Group International, LLC (HGI) and Integrity, but it is not
+            an affiliated company of Hegemon Group International, LLC (HGI) and
+            Integrity. Our financial professionals offer insurance products
+            through Hegemon Group International, LLC (HGI) and Integrity. Our
+            referred wealth managers are associated with the Wealth Format
+            System (WFS). Investment advisory services are offered through
+            Brokers International Financial Services, LLC., Member SIPC. Wealth
+            Format System (WFS) and Brokers International Financial Services,
+            LLC is not an affiliated company.</span
+          >
+        </div>
+      </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary btn-lg-square back-to-top"
+      ><i class="fa fa-arrow-up"></i
+    ></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+    <script>
+      // Get the modal elements
+      var modal = document.getElementById("serviceModal");
+      var modalTitle = document.getElementById("modal-title");
+      var modalBody = document.getElementById("modal-body");
+      var modal_list = document.getElementById("modal_list");
+      var closeBtn = document.querySelector(".close");
+
+      // Data for each service box
+      const services = {
+        estate: {
+          title: "Estate Planning",
+          body: "Ensure a smooth transfer of wealth to your beneficiaries.",
+          list: [
+           
+          ],
+        },
+        business: {
+          title: "Business Succession",
+          body: " Facilitate seamless ownership transitions in business partnerships. ",
+          list: [          ],
+        },
+        charity: {
+          title: "Charitable Giving",
+          body: "Leave a lasting legacy to causes close to your heart",
+          list: [],
+        },
+        living: {
+          title: "Living Benifits",
+          body: "Leverage permanent life insurance for tax-deferred cash value accumulation.",
+          list: [],
+        },
+        index: {
+          title: " Index Universal Life (IUL) Insurance",
+          body: "magine a life insurance policy that not only protects your loved ones but also grows your wealth. Enter Index Universal Life (IUL) insurance– the financial world's Swiss Army knife! This innovative product offers a thrilling twist on traditional policies by linking your cash value to stock market indexes.",
+          list: ["Cash value linked to stock market indexes","Downside protection against market volatility","Flexible premiums and tax-deferred growth","Access to cash value for life's financial challenges","IUL empowers you to tackle life's financial hurdles with confidence"],
+        },
+        termlife: {
+          title: " Term Life Insurance ",
+          body: "Ideal for those seeking substantial coverage for a defined period, term life insurance offers:",
+          list: ["Cost-effective premiums","Flexibility in coverage duration (15, 20, 30, or 35 years)","Pure death benefit protection"],
+        },
+        survivorship: {
+          title: "Survivorship Life Insurance",
+          body: "Perfect for estate planning and business continuation:",
+          list: ["Covers two individuals","Pays out upon the second insured's death","Available as index universal life"],
+        },
+        expense: {
+          title: " Final Expense Policy",
+          body: "These policies are designed primarily to cover final expenses. This type of policy is often also preferred for individuals who, due to some health issues, are not insurable in traditional life insurance policies, which often require extensive medical underwriting. These policies are also issued quicker than traditional life insurance. A whole life insurance option designed for specific needs:",
+          list: ["Covers end-of-life expenses","Accessible for those with health concerns","Quicker issuance compared to traditional policie"],
+        },
+        comprehensive: {
+          title: "Comprehensive Needs Analysis",
+          body: "Webegin by understanding your unique financial situation, goals, and concerns.",
+          list: [],
+        },
+        customized: {
+          title: "Customized Strategy Development",
+          body: "Leveraging our expertise, we craft a tailored insurance strategy that aligns with your objectives",
+          list: [],
+        },
+        product: {
+          title: "Product Selection:",
+          body: "Wehelp you navigate the myriad of insurance products, selecting those that best fit your needs.",
+          list: [],
+        },
+        support: {
+          title: "Ongoing Support",
+          body: " As your life evolves, we're here to adjust your strategy, ensuring it continues to serve your changing needs",
+          list: [],
+        },
+        
+      };
+
+      // Function to open modal with dynamic content
+      function openModal(serviceKey) {
+        var service = services[serviceKey];
+        modalTitle.innerHTML = service.title;
+        modalBody.innerHTML = service.body;
+
+        modal_list.innerHTML = '';
+
+        // Add each item from the 'list' array to the modal
+        service.list.forEach(function(item) {
+            var li = document.createElement("li");
+            li.textContent = item;
+            modal_list.appendChild(li);
+        });
+
+        modal.style.display = "flex"; // Show the modal
+      }
+
+      // Close the modal when the close button is clicked
+      closeBtn.onclick = function () {
+        modal.style.display = "none";
+      };
+
+      // Close the modal when user clicks outside the modal content
+      window.onclick = function (event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      };
+
+      // Add event listeners to the service boxes
+      document.querySelector('a[href="#estate"]').onclick = function () {
+        openModal("estate");
+      };
+    //   document.querySelector('a[href="#education"]').onclick = function () {
+    //     openModal("education");
+    //   };
+      document.querySelector('a[href="#living"]').onclick = function () {
+        openModal("living");
+      };
+      document.querySelector('a[href="#business"]').onclick = function () {
+        openModal("business");
+      };
+      document.querySelector('a[href="#index"]').onclick = function () {
+        openModal("index");
+      };
+      document.querySelector('a[href="#survivorship"]').onclick = function () {
+        openModal("survivorship");
+      };
+      document.querySelector('a[href="#termlife"]').onclick = function () {
+        openModal("termlife");
+      };
+      document.querySelector('a[href="#expense"]').onclick = function () {
+        openModal("expense");
+      };
+      document.querySelector('a[href="#charity"]').onclick = function () {
+        openModal("charity");
+      };
+      document.querySelector('a[href="#customized"]').onclick = function () {
+        openModal("customized");
+      };
+      document.querySelector('a[href="#comprehensive"]').onclick = function () {
+        openModal("comprehensive");
+      };
+      document.querySelector('a[href="#product"]').onclick = function () {
+        openModal("product");
+      };
+      document.querySelector('a[href="#support"]').onclick = function () {
+        openModal("support");
+      };
+    </script>
+  </body>
+</html>
